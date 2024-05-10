@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    color: white;
+    font-family: var(--Content);
+}
+
+@font-face {
+    font-family: "outfit";
+    src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+}
+
+:root {
+    --primary-Soft-blue: hsl(215, 51%, 70%);
+    --primary-Cyan: hsl(178, 100%, 50%);
+    --neutral-main-BG: hsl(217, 54%, 11%);
+    --neutral-card-BG: hsl(216, 50%, 16%);
+    --neutral-line: hsl(215, 32%, 27%);
+    --neutral-White: hsl(0, 0%, 100%);
+    --Content: "outfit", sans-serif;
+    --Content-weight1: 300;
+    --Content-weight2: 400;
+    --Content-weight3: 600;
+    --Content-font-size: 18px;
+  }
+
+  body{
+    background-color: hsl(217, 54%, 11%);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+  }
+
+  .wrapper{
+    width: 400px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 20px;
+    margin-block: 80px;
+    background-color: var(--neutral-card-BG);
+  }
+
+  img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+h2{
+    line-height: 30px;
+    font-size: var(--Content-weight2);
+    color: var(--primary-Soft-blue);
+    font-weight: var(--Content-weight1);
+}
+
+  .bottom{
+    display: flex;  
+    justify-content: space-between;
+  }
+
+  span{
+    display: flex;  
+  }
+
+  .eth{
+    color: var(--primary-Cyan);
+    font-weight: var(--Content-weight3);
+  }
+
+  .ethlo{
+    width: 15px;
+  }
+
+  .days{
+    color: var(--primary-Soft-blue);
+  }
+
+  .clock{
+    width: 25px;
+  }
+
+  hr{
+    width: 100%;
+    color: var(--neutral-line);
+  }
+
+  .under{
+    display: flex;    
+  }
+  
+.avatar{
+    height: 30px;
+    width: 30px;
+}
+
+.creation{
+    color: var(--primary-Soft-blue);
+}
+
+.bold{
+    font-weight: var(--Content-weight3);
+    color: white;
+}
