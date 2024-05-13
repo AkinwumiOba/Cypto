@@ -32,7 +32,8 @@
   }
 
   .wrapper{
-    width: 400px;
+    width: 350px;
+    height: 600px;
     padding: 20px;
     margin: auto;
     border-radius: 20px;
@@ -45,20 +46,24 @@
     border-radius: 10px;
   }
 
-h2{
+  h1{
+    font-weight: var(--Content-weight3);
+  }
+
+  .otext{
     line-height: 30px;
-    font-size: var(--Content-weight2);
-    color: var(--primary-Soft-blue);
-    font-weight: var(--Content-weight1);
-}
+  }
+
+  h2{
+      /* line-height: 30px; */
+      font-size: var(--Content-weight2);
+      color: var(--primary-Soft-blue);
+      font-weight: var(--Content-weight1);
+  }
 
   .bottom{
     display: flex;  
     justify-content: space-between;
-  }
-
-  span{
-    display: flex;  
   }
 
   .eth{
